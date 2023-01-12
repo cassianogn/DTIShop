@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\DTI.Core.Infrastructure\DTI.Core.Infrastructure.csproj" />
+    <ProjectReference Include="..\DTI.DTIShop.Application\DTI.DTIShop.Application.csproj" />
+    <ProjectReference Include="..\DTI.DTIShop.Domain\DTI.DTIShop.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
